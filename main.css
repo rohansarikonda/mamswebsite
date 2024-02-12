@@ -24,6 +24,15 @@ h1 {
     margin-top: 40px;
 }
 
+h3 {
+    font-family: 'Urbanist', sans-serif;
+    color: #252323;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 1.25;
+    margin-top: 40px;
+}
+
 a:link { 
     color: #F5F1ED;
     text-decoration: none;
@@ -41,6 +50,10 @@ a:active {
 
 a:hover {
     color: #70798C;
+}
+
+.h1link:hover {
+    color: #A99985;
 }
     
 /* The header and navigation bar are from https://www.youtube.com/watch?v=Aj8ef_TbiH8&ab_channel=Codehal.*/
@@ -152,7 +165,7 @@ header:hover::before {
 
 p, .text {
     font-family:'Urbanist', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #F5F1ED;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -169,12 +182,18 @@ p, .text {
     /*
     margin: 5px 15px 30px 50px;
     */
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
     width: fit-content;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .roundborderimg {
 	border-radius: 200px;
@@ -190,6 +209,21 @@ p, .text {
     margin: auto;
     width: 1250px;
     height: 500px;
+}
+
+.roundborderimg3 {
+    border-radius: 50px;
+	padding: 15px;
+    margin: auto;
+    width: 1250px;
+}
+
+.figure {
+    border-radius: 30px;
+    padding: 15px;
+    margin:auto;
+    width: 100%;
+    height: 100%;
 }
 
 /* Courtesy of W3schools parallax*/
@@ -296,6 +330,16 @@ img {
     clear:both;
 }
 
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
+
 .center2 {
     width: 50%;
     margin-top: 20px;
@@ -324,6 +368,33 @@ img {
     margin-bottom: 20px;
 }
 
+.center3 {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.qrcode {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.obj {
+    display:block; 
+    width:100%; 
+    height:1000px
+}
+
+.obj2 {
+    display: block;
+    width: 100%
+}
+
+
 .sizedown {
     height: 30%;
     width: 30%;
@@ -337,6 +408,6 @@ h2 {
     color: #DAD2BC;
 }
 
-.otherlink a{
+.otherlink a {
     color: #A99985;
 }
